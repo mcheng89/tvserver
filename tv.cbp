@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tv" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/tv" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release/" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="lib/libjson-c/include" />
+					<Add directory="lib/libxercesc/include" />
+					<Add directory="lib/libupnp/include" />
+					<Add directory="lib/libwinpthreads/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static-libgcc -static-libstdc++" />
+					<Add library="lib\libupnp\lib\libupnp.a" />
+					<Add library="lib\libupnp\lib\libthreadutil.a" />
+					<Add library="lib\libupnp\lib\libixml.a" />
+					<Add library="lib\libwinpthreads\lib\libpthread.a" />
+					<Add library="lib\libjson-c\lib\libjson-c.a" />
+					<Add library="lib\libxercesc\lib\libxerces-c.a" />
+					<Add library="C:\MinGW\lib\libws2_32.a" />
+					<Add library="C:\MinGW\lib\libiphlpapi.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="tv/api/server.cpp" />
+		<Unit filename="tv/api/server.h" />
+		<Unit filename="tv/api/stream.cpp" />
+		<Unit filename="tv/api/stream.h" />
+		<Unit filename="tv/api/tvdata.cpp" />
+		<Unit filename="tv/api/tvdata.h" />
+		<Unit filename="tv/config.cpp" />
+		<Unit filename="tv/config.h" />
+		<Unit filename="tv/devices/ceton.cpp" />
+		<Unit filename="tv/devices/ceton.h" />
+		<Unit filename="tv/devices/cetontuner.cpp" />
+		<Unit filename="tv/devices/cetontuner.h" />
+		<Unit filename="tv/devices/device.h" />
+		<Unit filename="tv/devices/devicelist.cpp" />
+		<Unit filename="tv/devices/devicelist.h" />
+		<Unit filename="tv/devices/hdhomerun.cpp" />
+		<Unit filename="tv/devices/hdhomerun.h" />
+		<Unit filename="tv/devices/hdhomerunhttp.cpp" />
+		<Unit filename="tv/devices/hdhomerunhttp.h" />
+		<Unit filename="tv/devices/hdhomerunhttptuner.cpp" />
+		<Unit filename="tv/devices/hdhomerunhttptuner.h" />
+		<Unit filename="tv/devices/hdhomeruntuner.cpp" />
+		<Unit filename="tv/devices/hdhomeruntuner.h" />
+		<Unit filename="tv/devices/tuner.h" />
+		<Unit filename="tv/http/httpclient.cpp" />
+		<Unit filename="tv/http/httpclient.h" />
+		<Unit filename="tv/http/httprequest.cpp" />
+		<Unit filename="tv/http/httprequest.h" />
+		<Unit filename="tv/http/httpserver.cpp" />
+		<Unit filename="tv/http/httpserver.h" />
+		<Unit filename="tv/http/httpservice.h" />
+		<Unit filename="tv/log.h" />
+		<Unit filename="tv/mongoose/mongoose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tv/mongoose/mongoose.h" />
+		<Unit filename="tv/scheduler.cpp" />
+		<Unit filename="tv/scheduler.h" />
+		<Unit filename="tv/sqlite/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tv/sqlite/sqlite3.h" />
+		<Unit filename="tv/sqlite/sqlite3ext.h" />
+		<Unit filename="tv/threads/condvar.cpp" />
+		<Unit filename="tv/threads/condvar.h" />
+		<Unit filename="tv/threads/mutex.cpp" />
+		<Unit filename="tv/threads/mutex.h" />
+		<Unit filename="tv/threads/rwlock.cpp" />
+		<Unit filename="tv/threads/rwlock.h" />
+		<Unit filename="tv/threads/thread.cpp" />
+		<Unit filename="tv/threads/thread.h" />
+		<Unit filename="tv/tuner.cpp" />
+		<Unit filename="tv/tuner.h" />
+		<Unit filename="tv/tv.cpp" />
+		<Unit filename="tv/tv.h" />
+		<Unit filename="tv/upnp/action.cpp" />
+		<Unit filename="tv/upnp/action.h" />
+		<Unit filename="tv/upnp/device.cpp" />
+		<Unit filename="tv/upnp/device.h" />
+		<Unit filename="tv/upnp/service.cpp" />
+		<Unit filename="tv/upnp/service.h" />
+		<Unit filename="tv/utils/file.cpp" />
+		<Unit filename="tv/utils/file.h" />
+		<Unit filename="tv/utils/json.cpp" />
+		<Unit filename="tv/utils/json.h" />
+		<Unit filename="tv/utils/process.cpp" />
+		<Unit filename="tv/utils/process.h" />
+		<Unit filename="tv/utils/scheduler.cpp" />
+		<Unit filename="tv/utils/scheduler.h" />
+		<Unit filename="tv/utils/socket.cpp" />
+		<Unit filename="tv/utils/socket.h" />
+		<Unit filename="tv/utils/stringutils.cpp" />
+		<Unit filename="tv/utils/stringutils.h" />
+		<Unit filename="tv/xmltv/epgupdater.cpp" />
+		<Unit filename="tv/xmltv/epgupdater.h" />
+		<Unit filename="tv/xmltv/xmltvreader.cpp" />
+		<Unit filename="tv/xmltv/xmltvreader.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

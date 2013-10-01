@@ -1,0 +1,1223 @@
+# depslib dependency file v1.0
+1364781539 source:c:\users\w7dev\desktop\tv\main.cpp
+	"tv/tv.h"
+	<xercesc/util/PlatformUtils.hpp>
+
+1364780700 c:\users\w7dev\desktop\tv\tv\tv.h
+	"http/httpserver.h"
+	"threads/rwlock.h"
+	"config.h"
+	"tuner.h"
+	"scheduler.h"
+	"devices/device.h"
+	"sqlite/sqlite3.h"
+
+1363090262 source:c:\users\w7dev\desktop\tv\tv\mongoose\mongoose.c
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+	<signal.h>
+	<fcntl.h>
+	<time.h>
+	<stdlib.h>
+	<stdarg.h>
+	<assert.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<windows.h>
+	<process.h>
+	<direct.h>
+	<io.h>
+	<stdint.h>
+	<sys/wait.h>
+	<sys/socket.h>
+	<sys/poll.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<netdb.h>
+	<pwd.h>
+	<unistd.h>
+	<dirent.h>
+	<dlfcn.h>
+	<pthread.h>
+	"mongoose.h"
+	<lua.h>
+	<lauxlib.h>
+	"solarisfixes.h"
+	<sys/mman.h>
+
+1363090253 c:\users\w7dev\desktop\tv\tv\mongoose\mongoose.h
+	<stdio.h>
+	<stddef.h>
+	<sal.h>
+
+1364856194 source:c:\users\w7dev\desktop\tv\tv\tv.cpp
+	"tv.h"
+	"log.h"
+	"api/server.h"
+	"api/stream.h"
+	"api/tvdata.h"
+	"devices/devicelist.h"
+	"utils/file.h"
+
+1359090534 source:c:\users\w7dev\desktop\tv\tv\threads\condvar.cpp
+	"condvar.h"
+
+1359163582 c:\users\w7dev\desktop\tv\tv\threads\condvar.h
+	"mutex.h"
+	<windows.h>
+
+1359163568 c:\users\w7dev\desktop\tv\tv\threads\mutex.h
+	<windows.h>
+
+1359088902 source:c:\users\w7dev\desktop\tv\tv\threads\mutex.cpp
+	"mutex.h"
+
+1359090554 source:c:\users\w7dev\desktop\tv\tv\threads\rwlock.cpp
+	"rwlock.h"
+
+1359088854 c:\users\w7dev\desktop\tv\tv\threads\rwlock.h
+	"condvar.h"
+	"mutex.h"
+
+1359088839 source:c:\users\w7dev\desktop\tv\tv\utils\httpserver.cpp
+	"httpserver.h"
+	<stdio.h>
+
+1359091004 c:\users\w7dev\desktop\tv\tv\utils\httpserver.h
+	"../threads/mutex.h"
+	"../mongoose/mongoose.h"
+	<string>
+
+1363385397 source:c:\users\w7dev\desktop\tv\tv\http\httprequest.cpp
+	"httprequest.h"
+	"../utils/stringutils.h"
+	<stdio.h>
+	<time.h>
+	<windows.h>
+
+1363057055 c:\users\w7dev\desktop\tv\tv\http\httpserver.h
+	"../threads/mutex.h"
+	"../mongoose/mongoose.h"
+	"httprequest.h"
+	"httpservice.h"
+	<map>
+	<string>
+
+1363090279 c:\users\w7dev\desktop\tv\tv\http\httprequest.h
+	"../mongoose/mongoose.h"
+	"../utils/json.h"
+	<string>
+	<map>
+
+1359876630 source:c:\users\w7dev\desktop\tv\tv\http\httpserver.cpp
+	"httpserver.h"
+	<stdio.h>
+
+1359160372 source:c:\users\w7dev\desktop\tv\tv\http\httplistener.cpp
+
+1359872052 c:\users\w7dev\desktop\tv\tv\http\httpservice.h
+	"httprequest.h"
+
+1359165169 source:c:\users\w7dev\desktop\tv\tv\http\httpservice.cpp
+	"httpservice.h"
+
+1365116892 source:c:\users\w7dev\desktop\tv\tv\config.cpp
+	"config.h"
+	<fstream>
+	<windows.h>
+	"utils/file.h"
+	"utils/json.h"
+	"devices/devicelist.h"
+
+1365122792 c:\users\w7dev\desktop\tv\tv\config.h
+	<string>
+	<list>
+	"utils/json.h"
+	<stdio.h>
+
+1360286570 c:\users\w7dev\desktop\tv\tv\utils\file.h
+	<string>
+	<vector>
+
+1360719284 source:c:\users\w7dev\desktop\tv\tv\utils\file.cpp
+	"file.h"
+	<stdio.h>
+	<windows.h>
+	<sys/stat.h>
+
+1364864095 source:c:\users\w7dev\desktop\tv\tv\api\server.cpp
+	"server.h"
+	"../utils/file.h"
+
+1364856172 c:\users\w7dev\desktop\tv\tv\api\server.h
+	"../tv.h"
+
+1359428371 c:\users\w7dev\desktop\tv\tv\utils\string.h
+	<string>
+	<sstream>
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\json.h
+	"bits.h"
+	"debug.h"
+	"linkhash.h"
+	"arraylist.h"
+	"json_util.h"
+	"json_object.h"
+	"json_tokener.h"
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\bits.h
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\debug.h
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\linkhash.h
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\arraylist.h
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\json_util.h
+	"json_object.h"
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\json_object.h
+
+1358901795 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json\json_tokener.h
+	<stddef.h>
+	"json_object.h"
+
+1361749265 c:\users\w7dev\desktop\tv\tv\utils\json.h
+	<string>
+	<json-c/json.h>
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json.h
+	"bits.h"
+	"debug.h"
+	"linkhash.h"
+	"arraylist.h"
+	"json_util.h"
+	"json_object.h"
+	"json_tokener.h"
+	"json_object_iterator.h"
+	"json_c_version.h"
+
+1359433842 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\bits.h
+
+1359433842 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\debug.h
+	<stdlib.h>
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\linkhash.h
+	"json_object.h"
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_object.h
+	"json_inttypes.h"
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_inttypes.h
+	"json_config.h"
+	<inttypes.h>
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_config.h
+
+1359433842 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\arraylist.h
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_util.h
+	"json_object.h"
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_tokener.h
+	<stddef.h>
+	"json_object.h"
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_object_iterator.h
+	<stddef.h>
+
+1359433843 c:\users\w7dev\desktop\tv\lib\libjson-c\include\json-c\json_c_version.h
+
+1361751357 source:c:\users\w7dev\desktop\tv\tv\utils\json.cpp
+	"json.h"
+
+1361837726 source:c:\users\w7dev\desktop\tv\tv\devices\devicelist.cpp
+	"devicelist.h"
+	"hdhomerun.h"
+	"hdhomerunhttp.h"
+	"ceton.h"
+
+1361745020 c:\users\w7dev\desktop\tv\tv\devices\devicelist.h
+	"device.h"
+	"../utils/json.h"
+
+1361054024 c:\users\w7dev\desktop\tv\tv\devices\device.h
+	<map>
+	<vector>
+	<string>
+	"tuner.h"
+	"../log.h"
+
+1364617593 c:\users\w7dev\desktop\tv\tv\devices\tuner.h
+	"device.h"
+
+1361837589 c:\users\w7dev\desktop\tv\tv\devices\hdhomerun.h
+	"device.h"
+	"../utils/json.h"
+	"../upnp/device.h"
+
+1361837633 c:\users\w7dev\desktop\tv\tv\devices\ceton.h
+	"device.h"
+	"../utils/json.h"
+	"../upnp/device.h"
+
+1364958982 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomerun.cpp
+	"hdhomerun.h"
+	"hdhomeruntuner.h"
+	"../utils/file.h"
+	"../utils/json.h"
+	"../utils/stringutils.h"
+	"../http/httpclient.h"
+	"../log.h"
+
+1360719671 source:c:\users\w7dev\desktop\tv\tv\upnp\action.cpp
+	"action.h"
+	"device.h"
+	<iostream>
+
+1360630765 c:\users\w7dev\desktop\tv\tv\upnp\action.h
+	<map>
+	<string>
+	<upnp/upnp.h>
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnp.h
+	"ixml.h"
+	"upnpconfig.h"
+	"UpnpGlobal.h"
+	"UpnpInet.h"
+	<time.h>
+	<sys/types.h>
+	<time.h>
+	"ActionComplete.h"
+	"ActionRequest.h"
+	"Discovery.h"
+	"Event.h"
+	"EventSubscribe.h"
+	"FileInfo.h"
+	"StateVarComplete.h"
+	"StateVarRequest.h"
+	"SubscriptionRequest.h"
+
+1358905396 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\ixml.h
+	"UpnpGlobal.h"
+	<objc/objc.h>
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnpglobal.h
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnpconfig.h
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnpinet.h
+	"UpnpUniStd.h"
+	<stdarg.h>
+	<winsock2.h>
+	<iphlpapi.h>
+	<ws2tcpip.h>
+	<sys/param.h>
+	<fcntl.h>
+	<sys/sockio.h>
+	<ifaddrs.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<netinet/in.h>
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnpunistd.h
+	<unistd.h>
+
+1359872100 c:\users\w7dev\desktop\tv\tv\upnp\device.h
+	"service.h"
+	"action.h"
+	"../threads/mutex.h"
+	<string>
+	<vector>
+	<upnp/upnp.h>
+	<upnp/ithread.h>
+	<upnp/upnptools.h>
+
+1359872108 c:\users\w7dev\desktop\tv\tv\upnp\service.h
+	"action.h"
+	<map>
+	<string>
+	<upnp/upnp.h>
+
+1358905396 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\ithread.h
+	<sys/param.h>
+	"UpnpGlobal.h"
+	"UpnpUniStd.h"
+	<pthread.h>
+
+1358905397 c:\users\w7dev\desktop\tv\lib\libupnp\include\upnp\upnptools.h
+	"ixml.h"
+	"upnpconfig.h"
+
+1360564968 source:c:\users\w7dev\desktop\tv\tv\upnp\device.cpp
+	"device.h"
+	<iostream>
+
+1360565022 source:c:\users\w7dev\desktop\tv\tv\upnp\service.cpp
+	"service.h"
+	"device.h"
+	<iostream>
+
+1358905354 c:\users\w7dev\desktop\tv\lib\libwinpthreads\include\pthread.h
+	<stddef.h>
+	<errno.h>
+	<sys/types.h>
+	<process.h>
+	<limits.h>
+	<signal.h>
+	<sys/timeb.h>
+	"pthread_compat.h"
+	<pthread_unistd.h>
+
+1358905354 c:\users\w7dev\desktop\tv\lib\libwinpthreads\include\pthread_compat.h
+	"pthread_time.h"
+
+1358905354 c:\users\w7dev\desktop\tv\lib\libwinpthreads\include\pthread_time.h
+	<sys/timeb.h>
+
+1358905354 c:\users\w7dev\desktop\tv\lib\libwinpthreads\include\pthread_unistd.h
+
+1364958977 source:c:\users\w7dev\desktop\tv\tv\devices\ceton.cpp
+	"ceton.h"
+	"cetontuner.h"
+	"../utils/file.h"
+	"../utils/stringutils.h"
+	"../http/httpclient.h"
+	"../log.h"
+
+1364617640 c:\users\w7dev\desktop\tv\tv\devices\cetontuner.h
+	"ceton.h"
+
+1364524772 source:c:\users\w7dev\desktop\tv\tv\devices\cetontuner.cpp
+	"cetontuner.h"
+	"../utils/stringutils.h"
+
+1363305449 source:c:\users\w7dev\desktop\tv\tv\http\httpclient.cpp
+	"httpclient.h"
+	"../utils/stringutils.h"
+
+1363305450 c:\users\w7dev\desktop\tv\tv\http\httpclient.h
+	"../utils/socket.h"
+	<string>
+
+1359915406 c:\users\w7dev\desktop\tv\tv\utils\stringutils.h
+	<vector>
+	<string>
+	<windows.h>
+
+1359916012 source:c:\users\w7dev\desktop\tv\tv\utils\stringutils.cpp
+	"stringutils.h"
+	<sstream>
+	<algorithm>
+
+1364682761 c:\users\w7dev\desktop\tv\tv\tuner.h
+	"tv.h"
+	"devices/tuner.h"
+	"threads/mutex.h"
+	"utils/socket.h"
+	"utils/process.h"
+
+1365047205 source:c:\users\w7dev\desktop\tv\tv\tuner.cpp
+	"tuner.h"
+	"log.h"
+	"utils/file.h"
+	"utils/stringutils.h"
+	<stdlib.h>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\platformutils.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+	<xercesc/util/PanicHandler.hpp>
+	<xercesc/util/XMLFileMgr.hpp>
+	<xercesc/util/XMLMutexMgr.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xercesdefs.hpp
+	<xercesc/util/Xerces_autoconf_config.hpp>
+	<xercesc/util/XercesVersion.hpp>
+
+1359862940 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xerces_autoconf_config.hpp
+	<inttypes.h>
+	<sys/types.h>
+	<wchar.h>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xercesversion.hpp
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/XMLExceptMsgs.hpp>
+	<xercesc/util/XMLUni.hpp>
+	<xercesc/framework/XMLErrorReporter.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmemory.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<stdlib.h>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlexceptmsgs.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/dom/DOMError.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\dom\domerror.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmluni.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlerrorreporter.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\panichandler.hpp
+	<xercesc/util/XMemory.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlfilemgr.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMemory.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlmutexmgr.hpp
+	<xercesc/util/XMemory.hpp>
+
+1361509301 source:c:\users\w7dev\desktop\tv\tv\xmltv\xmltvreader.cpp
+	"xmltvreader.h"
+	"../utils/stringutils.h"
+	<stdio.h>
+
+1361508785 c:\users\w7dev\desktop\tv\tv\xmltv\xmltvreader.h
+	<xercesc/sax2/Attributes.hpp>
+	<xercesc/sax2/DefaultHandler.hpp>
+	<xercesc/util/TransService.hpp>
+	<string>
+	<time.h>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\attributes.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\defaulthandler.hpp
+	<xercesc/sax2/ContentHandler.hpp>
+	<xercesc/sax2/LexicalHandler.hpp>
+	<xercesc/sax2/DeclHandler.hpp>
+	<xercesc/sax/DTDHandler.hpp>
+	<xercesc/sax/EntityResolver.hpp>
+	<xercesc/sax/ErrorHandler.hpp>
+	<xercesc/sax/SAXParseException.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\contenthandler.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\lexicalhandler.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\declhandler.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax\dtdhandler.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax\entityresolver.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax\errorhandler.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax\saxparseexception.hpp
+	<xercesc/sax/SAXException.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax\saxexception.hpp
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/XMLUni.hpp>
+	<xercesc/util/XMemory.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlstring.hpp
+	<xercesc/util/BaseRefVectorOf.hpp>
+	<xercesc/framework/XMLBuffer.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<string.h>
+	<assert.h>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\baserefvectorof.hpp
+	<xercesc/util/ArrayIndexOutOfBoundsException.hpp>
+	<xercesc/util/XMLEnumerator.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<xercesc/util/BaseRefVectorOf.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\arrayindexoutofboundsexception.hpp
+	<xercesc/util/XMLException.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlenumerator.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\memorymanager.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<stdlib.h>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\baserefvectorof.c
+	<xercesc/util/BaseRefVectorOf.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlbuffer.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<string.h>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\transservice.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/XMLRecognizer.hpp>
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/RefVectorOf.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlrecognizer.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refhashtableof.hpp
+	<xercesc/util/Hashers.hpp>
+	<xercesc/util/IllegalArgumentException.hpp>
+	<xercesc/util/NoSuchElementException.hpp>
+	<xercesc/util/RuntimeException.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<xercesc/util/RefHashTableOf.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\hashers.hpp
+	<xercesc/util/XMLString.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\illegalargumentexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\nosuchelementexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\runtimeexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refhashtableof.c
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/Janitor.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/NullPointerException.hpp>
+	<new>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\janitor.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<xercesc/util/Janitor.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\janitor.c
+	<xercesc/util/Janitor.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\nullpointerexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refvectorof.hpp
+	<xercesc/util/BaseRefVectorOf.hpp>
+	<xercesc/util/RefVectorOf.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refvectorof.c
+	<xercesc/util/RefVectorOf.hpp>
+
+1365047197 source:c:\users\w7dev\desktop\tv\tv\utils\process.cpp
+	"process.h"
+	<stdio.h>
+
+1365047201 c:\users\w7dev\desktop\tv\tv\utils\process.h
+	<string>
+	<windows.h>
+
+1359844016 source:c:\users\w7dev\desktop\tv\tv\threads\thread.cpp
+	"thread.h"
+
+1359872072 c:\users\w7dev\desktop\tv\tv\threads\thread.h
+	<windows.h>
+
+1359872152 c:\users\w7dev\desktop\tv\tv\xmltv\epgupdater.h
+	"../utils/process.h"
+	"../threads/mutex.h"
+	"../threads/thread.h"
+	<time.h>
+
+1359868504 c:\users\w7dev\desktop\tv\tv\sqlite\sqlite3.h
+	<stdarg.h>
+
+1361509436 source:c:\users\w7dev\desktop\tv\tv\xmltv\epgupdater.cpp
+	"epgupdater.h"
+	"xmltvreader.h"
+	"../utils/file.h"
+	"../tv.h"
+	"../log.h"
+	"../sqlite/sqlite3.h"
+	<xercesc/sax2/SAX2XMLReader.hpp>
+	<xercesc/sax2/XMLReaderFactory.hpp>
+	<xercesc/framework/XMLPScanToken.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\sax2xmlreader.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLUniDefs.hpp>
+	<xercesc/framework/XMLValidator.hpp>
+	<xercesc/framework/XMLPScanToken.hpp>
+	<xercesc/validators/common/Grammar.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\xmlunidefs.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlvalidator.hpp
+	<xercesc/framework/XMLAttr.hpp>
+	<xercesc/framework/XMLValidityCodes.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlattr.hpp
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/QName.hpp>
+	<xercesc/framework/XMLAttDef.hpp>
+	<xercesc/validators/datatype/DatatypeValidator.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\qname.hpp
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/XMLUniDefs.hpp>
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862937 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\internal\xserializable.hpp
+	<xercesc/internal/XSerializeEngine.hpp>
+	<xercesc/internal/XProtoType.hpp>
+
+1359862937 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\internal\xserializeengine.hpp
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/ValueVectorOf.hpp>
+	<xercesc/util/XMLExceptMsgs.hpp>
+	<xercesc/internal/XSerializationException.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\valuevectorof.hpp
+	<xercesc/util/ArrayIndexOutOfBoundsException.hpp>
+	<xercesc/util/XMLEnumerator.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/MemoryManager.hpp>
+	<xercesc/util/ValueVectorOf.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\valuevectorof.c
+	<xercesc/util/ValueVectorOf.hpp>
+	<string.h>
+
+1359862937 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\internal\xserializationexception.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMLException.hpp>
+
+1359862937 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\internal\xprototype.hpp
+	<xercesc/util/PlatformUtils.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlattdef.hpp
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/XMemory.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\validators\datatype\datatypevalidator.hpp
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/KVStringPair.hpp>
+	<xercesc/util/XMLUniDefs.hpp>
+	<xercesc/util/regx/RegularExpression.hpp>
+	<xercesc/validators/schema/SchemaSymbols.hpp>
+	<xercesc/internal/XSerializable.hpp>
+	<xercesc/framework/psvi/XSSimpleTypeDefinition.hpp>
+	<xercesc/framework/ValidationContext.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\kvstringpair.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\regularexpression.hpp
+	<xercesc/util/RefArrayVectorOf.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/Janitor.hpp>
+	<xercesc/util/regx/Op.hpp>
+	<xercesc/util/regx/TokenFactory.hpp>
+	<xercesc/util/regx/BMPattern.hpp>
+	<xercesc/util/regx/OpFactory.hpp>
+	<xercesc/util/regx/RegxUtil.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refarrayvectorof.hpp
+	<xercesc/util/BaseRefVectorOf.hpp>
+	<xercesc/util/RefArrayVectorOf.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\refarrayvectorof.c
+	"RefArrayVectorOf.hpp"
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\op.hpp
+	<xercesc/util/RefVectorOf.hpp>
+	<xercesc/util/RuntimeException.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\tokenfactory.hpp
+	<xercesc/util/RefVectorOf.hpp>
+	<xercesc/util/regx/Token.hpp>
+	<xercesc/util/Mutexes.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\token.hpp
+	<xercesc/util/RuntimeException.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\mutexes.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\bmpattern.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\opfactory.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/RefVectorOf.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\regx\regxutil.hpp
+	<xercesc/util/XMLUniDefs.hpp>
+
+1359862939 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\validators\schema\schemasymbols.hpp
+	<xercesc/util/XercesDefs.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\psvi\xssimpletypedefinition.hpp
+	<xercesc/framework/psvi/XSTypeDefinition.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\psvi\xstypedefinition.hpp
+	<xercesc/framework/psvi/XSObject.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\psvi\xsobject.hpp
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/framework/psvi/XSConstants.hpp>
+
+1359862938 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\psvi\xsconstants.hpp
+	<xercesc/util/RefVectorOf.hpp>
+	<xercesc/util/RefArrayVectorOf.hpp>
+
+1359862935 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\validationcontext.hpp
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/NameIdPool.hpp>
+	<xercesc/util/XMemory.hpp>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\nameidpool.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/RefHashTableOf.hpp>
+	<xercesc/util/NameIdPool.c>
+
+1359862934 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\util\nameidpool.c
+	<xercesc/util/NameIdPool.hpp>
+	<xercesc/util/IllegalArgumentException.hpp>
+	<xercesc/util/NoSuchElementException.hpp>
+	<xercesc/util/RuntimeException.hpp>
+	<new>
+	<assert.h>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlvaliditycodes.hpp
+	<xercesc/framework/XMLErrorReporter.hpp>
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/dom/DOMError.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlpscantoken.hpp
+	<xercesc/util/XMemory.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\validators\common\grammar.hpp
+	<limits.h>
+	<xercesc/framework/XMLElementDecl.hpp>
+	<xercesc/framework/XMLEntityDecl.hpp>
+	<xercesc/framework/XMLNotationDecl.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlelementdecl.hpp
+	<xercesc/framework/XMLAttr.hpp>
+	<xercesc/framework/XMLAttDefList.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlattdeflist.hpp
+	<xercesc/util/XercesDefs.hpp>
+	<xercesc/util/XMemory.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlentitydecl.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\framework\xmlnotationdecl.hpp
+	<xercesc/util/XMemory.hpp>
+	<xercesc/util/PlatformUtils.hpp>
+	<xercesc/util/XMLString.hpp>
+	<xercesc/internal/XSerializable.hpp>
+
+1359862936 c:\users\w7dev\desktop\tv\lib\libxercesc\include\xercesc\sax2\xmlreaderfactory.hpp
+	<xercesc/sax2/SAX2XMLReader.hpp>
+	<xercesc/sax/SAXException.hpp>
+
+1359868504 source:c:\users\w7dev\desktop\tv\tv\sqlite\sqlite3.c
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<tcl.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<windows.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/file.h>
+	<sys/param.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	<sys/cygwin.h>
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+
+1358905354 c:\users\w7dev\desktop\tv\lib\libwinpthreads\include\semaphore.h
+
+1359852254 source:c:\users\w7dev\desktop\tv\tv\api\epgdata.cpp
+	"epgdata.h"
+	"../utils/json.h"
+	"../utils/stringutils.h"
+
+1359847093 c:\users\w7dev\desktop\tv\tv\api\epgdata.h
+	"../tv.h"
+
+1360429650 source:c:\users\w7dev\desktop\tv\tv\utils\scheduler.cpp
+	"scheduler.h"
+	"../log.h"
+
+1359872134 c:\users\w7dev\desktop\tv\tv\utils\scheduler.h
+	"../threads/condvar.h"
+	"../threads/mutex.h"
+	"../threads/thread.h"
+	<time.h>
+
+1364942431 source:c:\users\w7dev\desktop\tv\tv\scheduler.cpp
+	"scheduler.h"
+	"tv.h"
+
+1364684735 c:\users\w7dev\desktop\tv\tv\scheduler.h
+	"xmltv/epgupdater.h"
+	"utils/scheduler.h"
+
+1360029703 c:\users\w7dev\desktop\tv\tv\api\tvdata.h
+	"../tv.h"
+
+1362710749 source:c:\users\w7dev\desktop\tv\tv\api\tvdata.cpp
+	"tvdata.h"
+	"../utils/json.h"
+	"../utils/file.h"
+	"../utils/stringutils.h"
+
+1364682864 source:c:\users\w7dev\desktop\tv\tv\api\stream.cpp
+	"stream.h"
+	"../utils/json.h"
+	"../utils/file.h"
+	"../http/httpclient.h"
+	"../utils/stringutils.h"
+
+1364619282 c:\users\w7dev\desktop\tv\tv\api\stream.h
+	"../tv.h"
+
+1360429961 c:\users\w7dev\desktop\tv\tv\log.h
+	"threads/mutex.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<time.h>
+
+1360540082 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun.h
+	"hdhomerun_os.h"
+	"hdhomerun_types.h"
+	"hdhomerun_pkt.h"
+	"hdhomerun_sock.h"
+	"hdhomerun_debug.h"
+	"hdhomerun_discover.h"
+	"hdhomerun_control.h"
+	"hdhomerun_video.h"
+	"hdhomerun_channels.h"
+	"hdhomerun_channelscan.h"
+	"hdhomerun_device.h"
+	"hdhomerun_device_selector.h"
+	"hdhomerun_config.h"
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_os.h
+	"hdhomerun_os_windows.h"
+	"hdhomerun_os_posix.h"
+
+1361748523 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_os_windows.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<signal.h>
+	<time.h>
+	<sys/types.h>
+	<sys/timeb.h>
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_os_posix.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<signal.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/timeb.h>
+	<sys/wait.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<pthread.h>
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_types.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_pkt.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_sock.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_debug.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_discover.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_control.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_video.h
+
+1354489833 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_channels.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_channelscan.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_device.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_device_selector.h
+
+1360540028 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun_config.h
+
+1364617633 c:\users\w7dev\desktop\tv\tv\devices\hdhomeruntuner.h
+	"hdhomerun.h"
+	"../utils/socket.h"
+
+1364524793 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomeruntuner.cpp
+	"hdhomeruntuner.h"
+	"../utils/stringutils.h"
+	"../log.h"
+
+1363385267 source:c:\users\w7dev\desktop\tv\tv\utils\socket.cpp
+	"socket.h"
+	<windows.h>
+
+1363316924 c:\users\w7dev\desktop\tv\tv\utils\socket.h
+	<string>
+
+1361746942 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomerundll.cpp
+	"hdhomerundll.h"
+	"hdhomerundlltuner.h"
+	"../utils/file.h"
+	"../utils/json.h"
+	"../utils/stringutils.h"
+	"../http/httpclient.h"
+	"../log.h"
+
+1361746977 c:\users\w7dev\desktop\tv\tv\devices\hdhomerundll.h
+	"device.h"
+	"../utils/json.h"
+	"../upnp/device.h"
+
+1361748992 c:\users\w7dev\desktop\tv\tv\devices\hdhomerundlltuner.h
+	"hdhomerundll.h"
+
+1361746556 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomerundlltuner.cpp
+	"hdhomerundlltuner.h"
+	"../utils/stringutils.h"
+	"../log.h"
+
+1360540082 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun.h
+	"hdhomerun_os.h"
+	"hdhomerun_types.h"
+	"hdhomerun_pkt.h"
+	"hdhomerun_sock.h"
+	"hdhomerun_debug.h"
+	"hdhomerun_discover.h"
+	"hdhomerun_control.h"
+	"hdhomerun_video.h"
+	"hdhomerun_channels.h"
+	"hdhomerun_channelscan.h"
+	"hdhomerun_device.h"
+	"hdhomerun_device_selector.h"
+	"hdhomerun_config.h"
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_os.h
+	"hdhomerun_os_windows.h"
+	"hdhomerun_os_posix.h"
+
+1361748523 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_os_windows.h
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<signal.h>
+	<time.h>
+	<sys/types.h>
+	<sys/timeb.h>
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_os_posix.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<unistd.h>
+	<errno.h>
+	<fcntl.h>
+	<signal.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/timeb.h>
+	<sys/wait.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<pthread.h>
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_types.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_pkt.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_sock.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_debug.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_discover.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_control.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_video.h
+
+1354489833 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_channels.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_channelscan.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_device.h
+
+1346355987 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_device_selector.h
+
+1360540028 c:\users\w7dev\desktop\tv\lib\libhdhomerun\include\hdhomerun\hdhomerun_config.h
+
+1362706940 c:\users\w7dev\desktop\tv\tv\devices\hdhomerunhttp.h
+	"device.h"
+	"../utils/json.h"
+	"../upnp/device.h"
+
+1364958989 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomerunhttp.cpp
+	"hdhomerunhttp.h"
+	"hdhomerunhttptuner.h"
+	"../utils/file.h"
+	"../utils/json.h"
+	"../utils/stringutils.h"
+	"../http/httpclient.h"
+	"../log.h"
+
+1364617585 c:\users\w7dev\desktop\tv\tv\devices\hdhomerunhttptuner.h
+	"hdhomerunhttp.h"
+
+1364619335 source:c:\users\w7dev\desktop\tv\tv\devices\hdhomerunhttptuner.cpp
+	"hdhomerunhttptuner.h"
+	"../utils/stringutils.h"
+
+1363056909 c:\users\w7dev\desktop\tv\tv\mongoose\mongoose_ex.h
+	"mongoose.h"
+
+1363056797 source:c:\users\w7dev\desktop\tv\tv\mongoose\mongoose_ex.c
+	"mongoose_ex.h"
+	"mongoose.c"
+
+1360130537 c:\users\w7dev\desktop\tv\tv\mongoose\mongoose.c
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+	<signal.h>
+	<fcntl.h>
+	<time.h>
+	<stdlib.h>
+	<stdarg.h>
+	<assert.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<windows.h>
+	<process.h>
+	<direct.h>
+	<io.h>
+	<stdint.h>
+	<sys/wait.h>
+	<sys/socket.h>
+	<sys/poll.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<stdint.h>
+	<inttypes.h>
+	<netdb.h>
+	<pwd.h>
+	<unistd.h>
+	<dirent.h>
+	<dlfcn.h>
+	<pthread.h>
+	"mongoose.h"
+	<lua.h>
+	<lauxlib.h>
+	"solarisfixes.h"
+	<sys/mman.h>
+
